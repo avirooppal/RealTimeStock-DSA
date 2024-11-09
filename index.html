@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Prediction</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Stock Price Prediction</h1>
+        <p>Enter a stock ticker symbol to get the next day's predicted closing price.</p>
+        
+        <form id="predictionForm">
+            <input type="text" id="tickerInput" placeholder="Enter stock ticker (e.g., AAPL)" required>
+            <button type="submit">Predict Price</button>
+        </form>
+        
+        <div id="result">
+            <!-- Prediction result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
