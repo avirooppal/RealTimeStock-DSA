@@ -59,31 +59,31 @@ The goal of this project is to predict the next day's closing stock price for a 
 
 1\. **Clone the repository**:
 
-   ```bash
+```bash
 
    git clone https://github.com/avirooppal/RealTimeStock-DSA.git
 
    cd your-repository-name
 
-   ```
+```
 
 2\. **Create and activate a virtual environment**:
 
-   ```bash
+```bash
 
    python -m venv venv
 
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-   ```
+```
 
 3\. **Install dependencies**:
 
-   ```bash
+```bash
 
    pip install -r requirements.txt
 
-   ```
+```
 
 4\. **Place the trained model**:
 
@@ -93,13 +93,13 @@ The goal of this project is to predict the next day's closing stock price for a 
 
 5\. **Run the Flask application**:
 
-   ```bash
+```bash
 
    cd backend
 
    python backend.py
 
-   ```
+```
 
 6\. **Access the API**:
 
@@ -249,12 +249,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ---
 
-
-
-
-### Additional Notes
-
-- Update `https://github.com/avirooppal/RealTimeStock.git` with your actual GitHub repository URL.
-
-- Update `"avirooppal42@gmail.com"` with your contact email if you want people to reach you.
 
